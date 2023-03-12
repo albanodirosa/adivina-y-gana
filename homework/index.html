@@ -13,7 +13,10 @@
 <body>
   <h1>Adivina el número</h1>
   <div>
-    <button>Comenzar</button>
+    <label for="nroUsuario">
+      <input name="nroUsuario" id="nroUsuario_id" type="number" min="0" max="10" step="1" placeholder="Ingrese el número aquí" required>
+    </label>
+    <button id="jugar_id" onclick="jugar()">Comenzar</button>
   </div>
 </body>
 <script src="./homework.js"></script>
